@@ -127,3 +127,100 @@
 // console.log(min); // 1
 // min = 1
 // ```
+
+
+// # Модуль 2. Заняття 4. Функції
+
+// ## Example 1 - Меньше з чисел
+
+// Напиши ф-ю яка буде повертати меньше з двох чисел "a" та "b"
+
+// ```js
+// console.log(min(2, 5)); // 2
+// console.log(min(3, -1)); // -1
+// console.log(min(1, 1)); // 1
+// ```
+
+// ## Example 2 - Площа прямокутника
+
+// Напиши ф - ю`getRectArea(dimensions)`яка буде рахувати площу прямокутника зі сторонами, значення яких
+// буде записано в `dimensions` в форматі рядка
+
+
+// ```js
+// function getRectArea(dimensions) {}
+
+// console.log(getRectArea('8 11'));
+// ```
+
+// ## Example 3 - Показ елементів в консоль
+
+// Напиши ф - ю`logItems(items)` що отримує масив та використовує цикл і для кожного елементу виводить
+// `<номер елемента> - <значеня елемента>` Нумерація починається з 1
+
+
+// ```js
+// function logItems(items) {}
+
+// logItems(['Mango', 'Poly', 'Ajax']);
+// logItems(['🍎', '🍇', '🍑', '🍌', '🍋']);
+// ```
+
+// ## Example 4 - Пошук найбільшого елементу
+
+// Напишіть ф-ю `findLargestNumber(numbers)` яка шукає саме більше число в масиві
+
+// ```js
+// function findLargestNumber(numbers) {}
+
+// console.log(findLargestNumber([2, 17, 94, 1, 23, 37])); // 94
+// console.log(findLargestNumber([49, 4, 7, 83, 12])); // 83
+// ```
+
+// ## Example 5 - Середнє значення
+
+// Напиши ф-ю `calAverage()` яка приймає будь-яку кількість аргументів і повертає їх середнє значення
+
+// ```js
+// function calAverage() {}
+
+// console.log(calAverage(1, 2, 3, 4)); // 2.5
+// console.log(calAverage(14, 8, 2)); // 8
+// console.log(calAverage(27, 43, 2, 8, 36)); // 23.2
+// ```
+
+// ## Example 6 - Форматування часу
+
+// Напиши ф-ю `formatTime(minutes)` яка перетворює значення `minutes` в рядок формату "HH:MM"
+
+// ```js
+
+// function formatTime(minutes) {}
+
+// console.log(formatTime(70)); // "01:10"
+// console.log(formatTime(450)); // "07:30"
+// console.log(formatTime(1441)); // "24:01"
+// ```
+
+// ## Example 7 - Колекції курсів (includes, indexOf, push ...)
+
+// Напишіть ф - ї для роботи з колекціями курсів`courses`
+
+// - `addCourse(name)` - додає курс в кінець колекції
+// - `removeCourse(name)` - видаляє курс з колекції
+// - `updateCourse(oldName, newName)` - міняє назву курсу на нову
+
+// ```js
+// const courses = ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL'];
+
+// addCourse('Express');
+// console.log(courses); // ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL', 'Express']
+// addCourse('CSS'); // 'У Вас уже є такий курс'
+
+// removeCourse('React');
+// console.log(courses); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'Express']
+// removeCourse('Vue'); // 'Курс з такою назвою відсутній'
+
+// updateCourse('Express', 'NestJS');
+// console.log(courses); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'NestJS']
+// ```
